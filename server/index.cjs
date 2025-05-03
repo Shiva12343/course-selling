@@ -13,7 +13,7 @@ app.use("/admin", adminRouter);
 app.use("/user", userRouter);
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://mkgandhi7777:wRCPnTWALPVIC90P@cluster0.t6z2ke1.mongodb.net/course-app', {
+mongoose.connect('', {
     dbName: "course-app"
 })
     .then(() => {
